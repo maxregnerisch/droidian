@@ -95,6 +95,10 @@ sony_bahamut:
 
   packages: *sony_bahamut_packages
   
+ #
+ # Xiapmi
+ #
+  
   # Xiaomi Redmi Note 3 
   xiaomi_kenzo:
   type: image
