@@ -93,7 +93,6 @@ sony_bahamut:
   variant: phone
   apilevel: 30
 
-  packages: *sony_bahamut_packages
   
  #
  # Xiapmi
