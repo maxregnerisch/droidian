@@ -48,7 +48,7 @@ rootfs:
     - name: droidian-adaptation-xiaomi-kenzo
       arch: arm64
       apilevel: 30
-      packages: *xiaomi-kenzo-packages
+      packages: none
 
 ########################################################################
 # Device specific images                                               #
