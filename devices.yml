@@ -21,6 +21,8 @@
   packages: &xiaomi_kenzo_packages
     - adaptation-xiaomi-kenzo
     - adaptation-xiaomi-kenzo-configs
+    
+
 
 ########################################################################
 # Recovery-flashable rootfses                                          #
@@ -51,7 +53,7 @@ rootfs:
     - name: droidian-adaptation-xiaomi-kenzo
       arch: arm64
       apilevel: 30
-      packages: *sony_bahamut_packages
+      packages: *xiaomi-kenzo-packages
 
 ########################################################################
 # Device specific images                                               #
