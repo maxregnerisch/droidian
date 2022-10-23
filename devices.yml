@@ -17,11 +17,6 @@
     - adaptation-fxtec-pro1x
     - adaptation-fxtec-pro1x-configs
 
-.xiaomi_kenzo_packages:
-  packages: &xiaomi_kenzo_packages
-    - adaptation-xiaomi-kenzo
-    - adaptation-xiaomi-kenzo-configs
-    
 
 
 ########################################################################
