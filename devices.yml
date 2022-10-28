@@ -23,26 +23,6 @@
 # Recovery-flashable rootfses                                          #
 ########################################################################
 
-rootfs:
-  type: rootfs
-  arch: [armhf, arm64]
-  edition: phosh
-  variant: phone
-  apilevel: [28, 29, 30]
-
-  bundles:
-    # Developer tools bundle
-    - name: droidian-devtools
-      arch: any
-      apilevel: any
-      only_stable: yes
-      packages: *devtools_packages
-
-    # F(x)tec Pro1
-    - name: droidian-adaptation-fxtec-pro1
-      arch: arm64
-      apilevel: 28
-      packages: *fxtec_pro1_packages
 
     # Xiaomi Redmi Note 3
     - name: droidian-adaptation-xiaomi-kenzo
@@ -53,30 +33,6 @@ rootfs:
 ########################################################################
 # Device specific images                                               #
 ########################################################################
-
-#
-# F(x)tec
-#
-
-# F(x)tec Pro1 (qx1000)
-fxtec_pro1:
-  type: image
-  arch: arm64
-  edition: phosh
-  variant: phone
-  apilevel: 28
-
-  packages: *fxtec_pro1_packages
-
-# F(x)tec Pro1-X (qx1050)
-fxtec_pro1x:
-  type: image
-  arch: arm64
-  edition: phosh
-  variant: phone
-  apilevel: 30
-
-  packages: *fxtec_pro1x_packages
 
 #
 # Xiaomi
@@ -91,14 +47,3 @@ sony_bahamut:
   apilevel: 30
 
   
- #
- # Xiapmi
- #
-  
-  # Xiaomi Redmi Note 3 
-  xiaomi_kenzo:
-  type: image
-  arch: arm64
-  edition: phosh
-  variant: phone
-  apilevel: 29
